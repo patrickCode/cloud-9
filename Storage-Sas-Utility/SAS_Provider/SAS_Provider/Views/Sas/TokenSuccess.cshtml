@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "SAS Token Created";
+}
+
+
+<div class="jumbotron">
+    <h1 class="display-4">Your SAS token is below</h1>
+    
+    <p class="lead">@ViewData["Token"]</p>
+
+    <hr class="my-4">
+    <p>The token will expire by @ViewData["ExpireAt"]</p>
+    @*<p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </p>*@
+</div>
