@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderServices", "Func_App_DLL\OrderServices.csproj", "{EF682F53-62B6-4F27-A9AB-B3048202D3B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderDomain", "OrderDomain\OrderDomain.csproj", "{2D80A803-273E-4777-8CB3-58F3E608CA4B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderRepository", "OrderRepository\OrderRepository.csproj", "{77B44910-93DC-483E-8F1C-A4730CAF09B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "Contracts\Contracts.csproj", "{A6039F05-BE2F-4487-B915-60158906A7B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationService", "NotificationService\NotificationService.csproj", "{D754A9F1-4F9C-4658-9EBE-12ECE71801E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{9B1449CE-F3C8-470B-9A1C-23D17977A833}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C9CB581D-9764-4695-9172-CEE3A8CEE471}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedKernel", "SharedKernel", "{5F28FB20-13C4-4EB7-AE83-65D9016B50DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Functions", "Functions", "{4E40B09D-8132-41BA-BF8F-1D4A1B5BDD0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workflow", "Workflow", "{5D1DBC28-9B23-43BD-8EB3-3A49453D0BB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{72CBA034-3945-4DDC-9953-4EAD5557540D}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "OrderCreationWorkflow", "OrderCreationWorkflow\OrderCreationWorkflow.deployproj", "{02D93AC7-32E6-4956-ABE5-8A34081D46B1}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "OrderMailWorkflow", "OrderMailWorkflow\OrderMailWorkflow.deployproj", "{FBFFC10E-079E-473A-859A-843D62FC44AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF682F53-62B6-4F27-A9AB-B3048202D3B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF682F53-62B6-4F27-A9AB-B3048202D3B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF682F53-62B6-4F27-A9AB-B3048202D3B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF682F53-62B6-4F27-A9AB-B3048202D3B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D80A803-273E-4777-8CB3-58F3E608CA4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D80A803-273E-4777-8CB3-58F3E608CA4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D80A803-273E-4777-8CB3-58F3E608CA4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D80A803-273E-4777-8CB3-58F3E608CA4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B44910-93DC-483E-8F1C-A4730CAF09B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B44910-93DC-483E-8F1C-A4730CAF09B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B44910-93DC-483E-8F1C-A4730CAF09B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B44910-93DC-483E-8F1C-A4730CAF09B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6039F05-BE2F-4487-B915-60158906A7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6039F05-BE2F-4487-B915-60158906A7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6039F05-BE2F-4487-B915-60158906A7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6039F05-BE2F-4487-B915-60158906A7B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D754A9F1-4F9C-4658-9EBE-12ECE71801E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D754A9F1-4F9C-4658-9EBE-12ECE71801E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D754A9F1-4F9C-4658-9EBE-12ECE71801E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D754A9F1-4F9C-4658-9EBE-12ECE71801E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D93AC7-32E6-4956-ABE5-8A34081D46B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D93AC7-32E6-4956-ABE5-8A34081D46B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D93AC7-32E6-4956-ABE5-8A34081D46B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D93AC7-32E6-4956-ABE5-8A34081D46B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBFFC10E-079E-473A-859A-843D62FC44AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBFFC10E-079E-473A-859A-843D62FC44AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBFFC10E-079E-473A-859A-843D62FC44AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBFFC10E-079E-473A-859A-843D62FC44AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF682F53-62B6-4F27-A9AB-B3048202D3B7} = {4E40B09D-8132-41BA-BF8F-1D4A1B5BDD0F}
+		{2D80A803-273E-4777-8CB3-58F3E608CA4B} = {9B1449CE-F3C8-470B-9A1C-23D17977A833}
+		{77B44910-93DC-483E-8F1C-A4730CAF09B5} = {C9CB581D-9764-4695-9172-CEE3A8CEE471}
+		{A6039F05-BE2F-4487-B915-60158906A7B2} = {5F28FB20-13C4-4EB7-AE83-65D9016B50DE}
+		{D754A9F1-4F9C-4658-9EBE-12ECE71801E2} = {C9CB581D-9764-4695-9172-CEE3A8CEE471}
+		{02D93AC7-32E6-4956-ABE5-8A34081D46B1} = {5D1DBC28-9B23-43BD-8EB3-3A49453D0BB4}
+		{FBFFC10E-079E-473A-859A-843D62FC44AF} = {5D1DBC28-9B23-43BD-8EB3-3A49453D0BB4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {534AA1CA-067B-4A25-B6F8-BCE0D2EB3937}
+	EndGlobalSection
+EndGlobal
